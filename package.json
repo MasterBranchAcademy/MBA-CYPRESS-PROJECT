@@ -1,0 +1,14 @@
+{
+  "name": "mba-cypress-project",
+  "version": "1.0.0",
+  "description": "MBA CYPRESS PROJECT WITH JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "OZ",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.5.0"
+  }
+}
