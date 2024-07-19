@@ -4,7 +4,7 @@ import Viewport_Page from "../../pages/Viewport_Page";
 const environment = Cypress.env(`environment`);
 const domain = Cypress.env().test.baseUrl;
 
-describe('Promise Resolve Tests', () => {
+describe('Async await Tests', () => {
 let user;
     beforeEach(function () {
         cy.fixture('userDatas/' + environment).then((user_data) => {
@@ -18,7 +18,7 @@ let user;
         
     })
 
-    it('The titles should be same', async () => {
+    it('The headers should be same', async () => {
         
             Viewport_Page.is_viewport_title_displayed().should('be.visible')
             Viewport_Page.click_viewport_title().click()
