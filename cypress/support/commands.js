@@ -23,3 +23,8 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('is_website_load_successfully', (url, title) => { 
+    cy.url().should(`include`,url);
+    cy.title().should('eq', title)
+ })

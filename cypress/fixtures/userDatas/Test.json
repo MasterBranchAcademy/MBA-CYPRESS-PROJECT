@@ -1,0 +1,14 @@
+{
+  "general":{
+     "title": "Cypress.io: Kitchen Sink"
+  },
+  "location":{
+    "subtitles":["cy.hash()","cy.location()","cy.url()"],
+    "links":["https://on.cypress.io/hash",
+            "https://on.cypress.io/location",
+            "https://on.cypress.io/url"]
+  },
+  "Viewport": {
+    "header_name" : "Viewport"
+  }
+}
